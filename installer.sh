@@ -2,7 +2,7 @@
 
 echo "Installing . . ."
 
-pip3 install colorama os sys time gTTS
+pip3 install colorama gTTS
 
 if [[ $? == 0 ]]; then
 	echo "Installing successfuly!"
